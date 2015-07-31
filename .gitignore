@@ -1,0 +1,22 @@
+logs
+target
+/.classpath
+/.project
+/.settings
+/RUNNING_PID
+
+# general
+*~
+*.log
+tmp
+dump
+.git/*
+
+# SBT
+dist
+project/boot
+project/target
+project/plugins/target
+target
+.target
+

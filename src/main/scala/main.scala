@@ -37,8 +37,8 @@ object BCryptPerfTest {
     val hashCheckAveTime = hashCheckTime / iterations
     val totalTime = appStopTime - appStartTime
     println(s"""
-      |Generating $iterations password hashes took: $passwordGenTime ms (average $passwordGenAveTime ms)
-      |Checking $iterations password hashed took: $hashCheckTime ms (average $hashCheckAveTime ms)
+      |Generating $iterations password hashes took: $passwordGenTime ms (on average $passwordGenAveTime ms)
+      |Checking $iterations password hashes took: $hashCheckTime ms (on average $hashCheckAveTime ms)
       |Total execution time: $totalTime ms
       """.stripMargin)
   }

@@ -1,12 +1,10 @@
-import scala.util.Random
-
 import java.security.SecureRandom
 
 import org.springframework.security.crypto.bcrypt.BCrypt
 
 object BCryptPerfTest {
   val debug = false
-  val iterations = 100´
+  val iterations = 100
 
   def main(args: Array[String]) = {
     val passwordGenStartTime = System.currentTimeMillis
